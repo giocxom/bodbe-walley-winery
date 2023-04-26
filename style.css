@@ -1,0 +1,116 @@
+body{
+    padding:0px 250px 0px 250px;
+    position: relative;
+}
+.logo-img{
+    left: 50px;
+    top: 30px;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+.facebook{
+    width: 50px;
+    position: absolute;
+    bottom: 120px;
+    right: 10px;
+    object-fit: cover;
+}
+.facebook:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+.instagram{
+    width: 50px;
+    position: absolute;
+    bottom: 60px;
+    right: 10px;
+    object-fit: cover;
+}
+.instagram:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+.phone{
+    width: 50px;
+    position: absolute;
+    bottom: 0px;
+    right: 10px;
+    object-fit: cover;
+}
+.phone:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+a{
+    text-decoration: none;
+}
+header{
+    width: 100%;
+    height: 50px;
+    background-color: #333;
+}
+.nav{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav a{
+    font-size: 20px;
+    color: white;
+}
+.nav a:hover{
+    transform: scale(1.05);
+}
+section{
+    padding-top: 20px;
+    width: 100%;
+    background-color: #333;
+}
+.slider {
+	width: 90%;
+	margin: 2em auto;
+}
+
+.slider-wrapper {
+	width: 100%;
+	height: 700px;
+	position: relative;
+}
+
+.slide {
+	float: left;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+    object-fit: cover;
+	opacity: 0;
+	transition: opacity 7s linear;
+    border-radius: 20px;
+}
+
+.slider-wrapper > .slide:first-child {
+	opacity: 2;
+}
+.contact-section{
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px;
+    font-size: 30px;
+}
+.about-div{
+    font-size: 50px;
+    color: white;
+}
